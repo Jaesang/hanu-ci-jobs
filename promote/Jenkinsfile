@@ -127,6 +127,7 @@ pipeline {
           repoBaseUrl = 'git@github.com'
           repos = [
             'openinfradev': [
+              'pipeline-library',
               'tacoplay',
               'decapod-flow',
               'decapod-base-yaml',
